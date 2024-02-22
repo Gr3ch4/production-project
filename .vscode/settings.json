@@ -4,5 +4,6 @@
         "src/shared/config/i18n"
     ],
     "i18n-ally.sourceLanguage": "ru",
-    "fine-i18n-helper.showDecorations": true
+    "fine-i18n-helper.showDecorations": true,
+    "git.ignoreLimitWarning": true
 }
