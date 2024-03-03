@@ -14,21 +14,21 @@ export const Navbar = ({ className }: NavbarProps) => {
     const { t } = useTranslation();
 
     const onToggleModal = useCallback(() => {
-        setIsAuthModal((prev) => !prev)
-    }, [])
+        setIsAuthModal((prev) => !prev);
+    }, []);
 
     return (
         <div className={classNames(cls.Navbar, {}, [className])}>
-            <Button 
-                theme={ButtonTheme.CLEAR_INVERTED} 
+            <Button
+                theme={ButtonTheme.CLEAR_INVERTED}
                 className={cls.links}
                 onClick={onToggleModal}
             >
                 {t('Войти')}
             </Button>
             <Modal isOpen={isAuthModal} onClose={onToggleModal}>
-                 {/* eslint-disable-next-line max-len */}
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi cupiditate quidem exercitationem quia error tempora inventore. Nam velit illo provident culpa impedit minus ullam atque magnam asperiores quam. Asperiores, recusandae.
+                {/* eslint-disable-next-line */}
+                { t('Lorem ipsum dolorsit amet, consectetur adipisicing elit. Sequi cupiditate quidem exercitationem quiaerror tempora inventore. Nam velit illo provident culpa impedit minus ullam atque magnam asperiores quam. Asperiores, recusandae.') }
             </Modal>
         </div>
     );

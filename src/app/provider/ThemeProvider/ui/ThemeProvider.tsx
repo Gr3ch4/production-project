@@ -15,10 +15,10 @@ const defaultTheme = localStorage.getItem(
 
 const ThemeProvider: FC<ThemeProviderProps> = (props) => {
     const {
-        initialTheme, 
+        initialTheme,
         children,
-    } = props
-    
+    } = props;
+
     const [theme, setTheme] = useState<Theme>(initialTheme || defaultTheme);
 
     const defaultProps = useMemo(() => ({
