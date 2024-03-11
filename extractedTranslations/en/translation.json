@@ -1,13 +1,11 @@
 {
-  "Lorem ipsum dolorsit amet, consectetur adipisicing elit": {
-    " Sequi cupiditate quidem exercitationem quiaerror tempora inventore": {
-      " Nam velit illo provident culpa impedit minus ullam atque magnam asperiores quam": {
-        " Asperiores, recusandae": {
-          "": ""
-        }
-      }
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
     }
   },
+  "decrement": "decrement",
+  "increment": "increment",
   "throw error": "throw error",
   "Войти": "Войти",
   "Главная": "Главная",
