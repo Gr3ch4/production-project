@@ -1,4 +1,5 @@
-// eslint-disable-this-file
+/* eslint-disable */
+
 const fs = require('fs');
 const jsonServer = require('json-server');
 const jwt = require('jsonwebtoken');
